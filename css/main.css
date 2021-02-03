@@ -590,7 +590,7 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .about-me-content-wrapper {
@@ -612,7 +612,7 @@ footer .content-wrapper {
 
 .selfie img {
   box-shadow: 5px 5px 20px darkgrey;
-  width: 200px;
+  width: 180px;
 }
 
 .about-info {
@@ -1155,6 +1155,10 @@ footer .content-wrapper {
   align-self: flex-start;
 }
 
+label {
+  font-size: 0.8em;
+}
+
 /*-----hamburger------*/
 
 
@@ -1553,6 +1557,10 @@ form {
     align-self: flex-start;
   }
 
+  .selfie img {
+    width: 230px;
+  }
+
   .about-me-nav {
     margin-top: 10px;
     margin: 0;
@@ -1746,7 +1754,7 @@ form {
   }
 
   label {
-    font-size: 1.25em;
+    font-size: 1.3em;
   }
 
   .contact-form input {
@@ -1945,7 +1953,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0 2em 3.125em 2em;
+    padding: 0 2em 3.125em 3em;
   }
 
   .example {
@@ -2028,7 +2036,7 @@ form {
   .design-work {
     align-items: flex-start;
     width: 100%;
-    padding: 2em 2em 5em 2em;
+    padding: 2em 2em 5em 3em;
   }
 
   .separator {
@@ -2062,6 +2070,7 @@ form {
   .design-work img {
     width: 31.25em;
     height: auto;
+    box-shadow: 0.938em 0.938em 2.5em #776300;
   }
 
 
@@ -2250,7 +2259,7 @@ form {
     display: block;
     width: 35%;
     padding-right: 3.25em;    font-family: 'Cutive Mono', monospace;
-    color: #8B8B8B;
+    color: #384E57;
     font-size: 1.1em;
   }
 
@@ -2265,6 +2274,7 @@ form {
     /* border:#a5a5a5 solid 2px;
   border-radius: 20px; */
     width: 90%;
+    padding:3em 0;
   }
 
 
@@ -2348,6 +2358,10 @@ form {
 
   .contact-form {
     width: 40%;
+  }
+
+  label {
+    font-size: 1em;
   }
 
   .contact-main {
