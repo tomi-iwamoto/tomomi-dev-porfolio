@@ -89,8 +89,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 /*-------MOBILE HAMBURGER --------*/
 
 .desktop-menu {
@@ -117,6 +115,7 @@ textarea {
   margin: 0;
   font-size: 30px;
   color: #FF7575;
+  color:#384E57;
   padding-top: 10px;
 }
 
@@ -240,6 +239,8 @@ a:visited {
 header h1 {
   font-family: 'Open Sans', sans-serif;
   color: #FF7575;
+  color:#a68900;
+  color:#384E57;
   font-size: 1em;
   font-weight: 600;
 }
@@ -248,6 +249,7 @@ header h1 {
   font-family: 'Cutive Mono', monospace;
   font-size: 1.125em;
   color: #8B8B8B;
+  color:#FF7575;
   margin: 0;
 }
 
@@ -256,11 +258,17 @@ header h1 {
 }
 
 /*--- this is so that the web developer/designer title will collapse in the mobile styles*/
-
+.front-end-title {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .front-end-title p {
   font-family: 'Cutive Mono', monospace;
-  font-size: 1.125em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
   color: #8B8B8B;
+  color:#384E57;
   /* background-color: #384E57; */
 }
 
@@ -270,6 +278,7 @@ header .header-divider {
   opacity: 0.8;
   background-color: #FF7575;
   height: 2px;
+  display:none;
 }
 
 
@@ -279,14 +288,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3.125em;
 }
 
 main .content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .dev-separator {
@@ -328,7 +336,7 @@ main figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0px;
+  /* margin: 30px 0px; */
 }
 
 .text-container {
@@ -354,6 +362,9 @@ main figure {
 }
 .dev-work {
   width: 100%;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: #eef3f5;
 }
 
 .responsive {
@@ -375,16 +386,17 @@ main figure {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-bottom: 3.125em;
+  padding: 1em 0 2em 0;
+  background-color: #ffff;
+  background-color: #a68900;
 }
 
 .separator {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 80%;
-  padding-bottom: 1.875em;
 }
 
 .design-work p {
@@ -392,7 +404,8 @@ main figure {
   font-size: 1.125em;
   color: #8B8B8B;
   color: #FF7575;
-
+  color:white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .separator .header-divider {
@@ -400,10 +413,11 @@ main figure {
   /* border: solid black 0.031em; */
   height: 2px;
   background-color: #ff7575;
+  display:none;
 }
 
 .design-work img {
-  box-shadow: 0.938em 0.938em 2.5em lightgrey;
+  /* box-shadow: 0.938em 0.938em 2.5em lightgrey; */
 }
 
 
@@ -800,7 +814,7 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1.25em 0 3em 0;
+  padding: 2.5em 0 3em 0;
 }
 
 .work-example-text {
@@ -983,6 +997,7 @@ footer .content-wrapper {
   width: 100%;
   margin-top: 5em;
   background-color: rgb(255, 244, 244);
+  background-color: #a68900;
   padding: 1.875em 0;
 }
 
@@ -1014,6 +1029,7 @@ footer .content-wrapper {
   font-weight: normal;
   color: rgb(168, 168, 168);
   color: #FF7575;
+  color:white;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 30px;
   align-self: center;
@@ -1030,6 +1046,7 @@ footer .content-wrapper {
 .skills-wrap p {
   padding-bottom: 0.625em;
   color: #525252;
+  color:white;
 }
 
 .skills-wrap h3 {
@@ -1434,7 +1451,8 @@ form {
 
 
   main .content-wrapper {
-    width: 86%
+    width: 86%;
+    margin-top: 30px;
   }
 
   .dev-separator p {
@@ -1476,6 +1494,10 @@ form {
     height: 16.1256em;
   }
 
+  .design-work {
+    margin:100px 0;
+  }
+
   .design-work img {
     width: 30em;
     height: 16.1256em; 
@@ -1496,7 +1518,7 @@ form {
   /*-------TABLET FOOTER STYLES------*/
 
   .footer-separator p {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
 
   .email p {
@@ -1859,6 +1881,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-bottom: 9em;
   }
 
   /* .logo-wrap {
@@ -1880,6 +1903,7 @@ form {
     margin: 0;
     font-size: 1.3em;
     color: #8B8B8B;
+    color:#FF7575;
     width: 100%;
     padding-top: 20px;
     letter-spacing: -1px;
@@ -1897,6 +1921,7 @@ form {
     font-family: 'Open Sans', sans-serif;
     color:#8B8B8B;
     color:#b1b1b1;
+    color:#384E57;
   }
 
   header .header-divider {
@@ -1909,6 +1934,7 @@ form {
 
   main .content-wrapper {
     width: 80%;
+    margin-top: 0;
   }
 
   .dev-separator {
@@ -1919,7 +1945,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 3.125em;
+    padding: 0 2em 3.125em 2em;
   }
 
   .example {
@@ -2002,12 +2028,16 @@ form {
   .design-work {
     align-items: flex-start;
     width: 100%;
-    padding: 4.375em 0 8.75em 0;
+    padding: 2em 2em 5em 2em;
   }
 
   .separator {
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
+  }
+
+  .design-work .separator p {
+    font-size: 1.3em ;
   }
 
   .separator .header-divider {
@@ -2018,7 +2048,7 @@ form {
   }
 
   .design-work p {
-    color: #F69D8E;
+    color: white;
     font-size: 1.2em;
     /* font-family: 'Open Sans', sans-serif; */
   }
@@ -2037,7 +2067,9 @@ form {
 
   .design-work .text-container p {
     color: #8B8B8B;
+    color:white;
     font-size: 1em;
+    font-family: 'Cutive Mono', monospace;
   }
 
   .social-wrapper {
@@ -2114,6 +2146,7 @@ form {
   .skills-wrap p {
     font-size: 1.2em;
     color: #525252;
+    color:white;
   }
 
   .services-content p {
@@ -2215,9 +2248,8 @@ form {
 
   .text-container {
     display: block;
-    width: 40%;
-    padding-left: 6.25em;
-    font-family: 'Cutive Mono', monospace;
+    width: 35%;
+    padding-right: 3.25em;    font-family: 'Cutive Mono', monospace;
     color: #8B8B8B;
     font-size: 1.1em;
   }
