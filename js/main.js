@@ -1,3 +1,19 @@
+// DROPDOWN MENU
+
+$(document).ready(() => {
+
+  $('.dropdown-menu').hide();
+
+  $('.mobile-menu').on('click', () => {
+    $('.dropdown-menu').slideToggle(300);
+  })
+
+
+})
+
+
+
+
 //typewriter effect for my work title
 
 // let i = 0;
@@ -13,20 +29,6 @@
 // }
 
 // typeWriter();
-
-
-// drop down menu for homepage
-
-$(document).ready(() => {
-
-  $('.dropdown-menu').hide();
-
-  $('.mobile-menu').on('click', () => {
-    $('.dropdown-menu').slideToggle(300);
-  })
-
-
-})
 
 
 
